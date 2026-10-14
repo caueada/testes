@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<title>REAAT – Rede de Educação Ambiental do Alto Tietê</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<style>
+:root{--bg:#f6f8f0;--paper:#fff;--ink:#1c2a1b;--muted:#566351;--line:#d8dfca;--forest:#2d6a3e;--lime:#9bc12b;--teal:#0f6b6b;--bark:#6b3d12;--gold:#b8982c;--deep:#14341f;--onbrand:#fff;--tint:#e9f0d8;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a12;--paper:#16251a;--ink:#e9f0e3;--muted:#a9b9a8;--line:#27402c;--forest:#8fcf86;--teal:#5fc9bd;--bark:#e0b184;--tint:#1a2c1e;--deep:#0a130d}}
+:root[data-theme="dark"]{--bg:#0f1a12;--paper:#16251a;--ink:#e9f0e3;--muted:#a9b9a8;--line:#27402c;--forest:#8fcf86;--teal:#5fc9bd;--bark:#e0b184;--tint:#1a2c1e;--deep:#0a130d}
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,sans-serif;line-height:1.7}
+h1,h2,h3,.disp{font-family:'Bricolage Grotesque',Figtree,sans-serif;letter-spacing:-.025em;line-height:1.08}
+.mark{background:url("assets/logo.png") center/contain no-repeat;display:block}
+.muted{color:var(--muted)}.forest{color:var(--forest)}.teal{color:var(--teal)}.bark{color:var(--bark)}
+.leaf{border-radius:0 72% 0 72%}.leaf2{border-radius:72% 0 72% 0}
+.photo{position:relative;display:flex;align-items:flex-end;padding:1.25rem;overflow:hidden;color:#fff;font-size:.8rem;
+background:radial-gradient(circle at 25% 20%,var(--a,#9bc12b),transparent 55%),radial-gradient(circle at 80% 85%,var(--b,#0f6b6b),transparent 60%),#1f5a3a}
+.photo i{opacity:.85}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:.8rem 1.5rem;border-radius:.4rem 1.4rem .4rem 1.4rem;font-weight:600;transition:transform .15s,background .15s;cursor:pointer}
+.btn:active{transform:scale(.97)}
+.btn-main{background:var(--bark);color:#fff}.btn-main:hover{background:var(--forest)}
+.btn-line{border:2px solid var(--forest);color:var(--forest)}.btn-line:hover{background:var(--tint)}
+.tag{font-size:.8rem;font-weight:600;color:var(--teal);border-bottom:2px solid var(--lime);padding-bottom:1px}
+.field{width:100%;padding:.6rem .1rem;background:transparent;border:0;border-bottom:2px solid var(--line);color:var(--ink);font:inherit;border-radius:0}
+.field:focus{border-bottom-color:var(--forest);outline:none}
+.btn:focus-visible,a:focus-visible,button:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+label{font-weight:600;font-size:.85rem;color:var(--muted)}
+.ico{width:1.3em;height:1.3em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.ph{display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.85);background:linear-gradient(135deg,var(--c1,#2f7d4f),var(--c2,#0f5c57))}
+.flow{animation:flow 14s linear infinite}
+@keyframes flow{to{transform:translateX(-50%)}}
+.sec{max-width:72rem;margin:0 auto;padding:4.5rem 1.25rem}
+@media(min-width:768px){.sec{padding:7rem 1.25rem}}
+@media (prefers-reduced-motion:reduce){.flow{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-mega" viewBox="0 0 24 24"><path d="M4 10v4h3l8 4V6L7 10H4zM18 9c1.5 1 1.5 5 0 6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 10-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+<symbol id="i-in" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v6M8 8v.01M12 17v-6m0 3c0-2 4-3 4 0v3"/></symbol>
+<symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5v.01"/></symbol>
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.3-4.2A8 8 0 1112 20a8 8 0 01-3.8-1L4 20z"/><path d="M9 9c0 3 3 6 6 6l1-1.5-2-1-1 .7c-1-.5-1.7-1.2-2.2-2.2l.7-1-1-2L9 9z"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="wave" viewBox="0 0 1200 90" preserveAspectRatio="none"><path d="M0 50C200 10 330 90 600 50S1000 10 1200 50V90H0z" fill="var(--teal)" opacity=".85"/><path d="M0 62C220 28 380 96 640 64S1010 30 1200 62V90H0z" fill="var(--gold)" opacity=".85"/><path d="M0 74C240 46 400 100 660 76S1030 52 1200 74V90H0z" fill="var(--bark)"/></symbol>
+</defs></svg>
+
+<header class="sticky top-0 z-50" style="background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)">
+  <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between gap-4">
+    <a href="#topo" class="flex items-center gap-3" aria-label="REAAT, Rede de Educação Ambiental do Alto Tietê">
+      <span class="mark w-11 h-11" role="img" aria-label="Logo da REAAT"></span>
+      <span class="leading-tight"><b class="disp text-xl bark block">REAAT</b><span class="muted text-xs hidden sm:block">Rede de Educação Ambiental do Alto Tietê</span></span>
+    </a>
+    <nav class="hidden lg:flex items-center gap-8 text-sm font-semibold" aria-label="Principal">
+      <a href="#sobre" class="hover:underline">Sobre</a><a href="#especialistas" class="hover:underline">Especialistas</a><a href="#acoes" class="hover:underline">Ações &amp; Projetos</a><a href="#noticias" class="hover:underline">Notícias</a><a href="#contato" class="hover:underline">Contato</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="#contato" class="btn btn-main hidden sm:inline-flex !py-2 text-sm">Junte-se à Rede</a>
+      <button id="mbtn" class="lg:hidden p-2" aria-label="Abrir menu" aria-expanded="false"><svg class="ico w-6 h-6"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+  <nav id="mnav" class="hidden lg:hidden px-5 pb-4 flex-col gap-3 font-semibold" aria-label="Menu móvel">
+    <a href="#sobre">Sobre</a><a href="#especialistas">Especialistas</a><a href="#acoes">Ações &amp; Projetos</a><a href="#noticias">Notícias</a><a href="#contato">Contato</a>
+    <a href="#contato" class="btn btn-main mt-1">Junte-se à Rede</a>
+  </nav>
+</header>
+
+<main id="topo">
+<!-- Hero (versão anterior: onda animada + foto da nascente) -->
+<section class="relative overflow-hidden" style="background:linear-gradient(180deg,var(--tint),var(--bg))">
+  <div class="max-w-6xl mx-auto px-5 pt-14 pb-32 md:pt-24 md:pb-44 grid md:grid-cols-5 gap-10 items-center">
+    <div class="md:col-span-3">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold forest">Quem conhece o rio cuida do rio. Vamos conhecer o Alto Tietê juntos.</h1>
+      <p class="muted text-lg mt-6 max-w-xl">A REAAT reúne educadores ambientais que levam ao território o que sabem sobre rios, fauna, enchentes e a vida de quem mora aqui. Venha participar das nossas ações.</p>
+      <div class="flex flex-wrap gap-3 mt-8">
+        <a href="#acoes" class="btn btn-main">Conheça nossas ações</a>
+        <a href="#contato" class="btn btn-line">Seja um parceiro</a>
+      </div>
+    </div>
+    <div class="md:col-span-2">
+      <img src="assets/fotos/rio-tiete.jpg" alt="Rio cercado de vegetação no Alto Tietê" class="rounded-[2rem] aspect-[4/5] w-full object-cover" fetchpriority="high">
+    </div>
+  </div>
+  <div class="absolute bottom-0 left-0 w-full overflow-hidden h-20 md:h-28" aria-hidden="true">
+    <svg class="flow h-full" style="width:200%" viewBox="0 0 2400 120" preserveAspectRatio="none"><path d="M0 60c100-40 200-40 300 0s200 40 300 0 200-40 300 0 200 40 300 0 200-40 300 0 200 40 300 0 200-40 300 0 200 40 300 0V120H0z" fill="var(--teal)" opacity=".18"/><path d="M0 80c100-30 200-30 300 0s200 30 300 0 200-30 300 0 200 30 300 0 200-30 300 0 200 30 300 0 200-30 300 0 200 30 300 0V120H0z" fill="var(--bg)"/></svg>
+  </div>
+</section>
+
+<section id="sobre" class="sec">
+  <div class="grid md:grid-cols-12 gap-10 md:gap-14 items-center">
+    <div class="md:col-span-5">
+      <div class="photo leaf aspect-[4/5]" style="--a:#9bc12b;--b:#0f6b6b"><img src="assets/fotos/educadores-territorio.jpg" alt="Educadores e participantes em vivência pelas ruas do território" class="absolute inset-0 w-full h-full object-cover object-[50%_30%]" loading="lazy"></div>
+    </div>
+    <div class="md:col-span-7">
+      <h2 class="text-3xl md:text-5xl font-extrabold bark">Uma rede que leva a educação ambiental até quem vive aqui</h2>
+      <p class="muted mt-6 max-w-xl">A REAAT conecta educadores ambientais, compartilha práticas e fortalece ações no Alto Tietê. Cada integrante aproxima a rede de públicos e espaços diferentes, de escolas a fóruns locais.</p>
+      <p class="muted mt-4 max-w-xl">Queremos mostrar como o Rio Tietê, a fauna e as enchentes afetam a vida da região, e dar visibilidade ao trabalho de quem ensina sobre isso.</p>
+    </div>
+  </div>
+  <div class="grid md:grid-cols-3 gap-10 mt-16">
+    <div class="pl-5" style="border-left:4px solid var(--lime)"><h3 class="text-xl font-bold forest">Educação ambiental</h3><p class="muted mt-2">Conhecimento técnico explicado em linguagem simples, dentro do território.</p></div>
+    <div class="pl-5" style="border-left:4px solid var(--teal)"><h3 class="text-xl font-bold teal">Parcerias e projetos</h3><p class="muted mt-2">Escolas, organizações locais, editais e projetos já ativos na região.</p></div>
+    <div class="pl-5" style="border-left:4px solid var(--bark)"><h3 class="text-xl font-bold bark">Mobilização comunitária</h3><p class="muted mt-2">Espaço para moradores enviarem fotos, dúvidas e relatos sobre o Alto Tietê.</p></div>
+  </div>
+</section>
+
+<section id="especialistas" style="background:var(--tint)">
+  <div class="sec">
+    <h2 class="text-3xl md:text-5xl font-extrabold bark max-w-2xl">As pessoas que fazem a rede</h2>
+    <p class="muted mt-4 max-w-xl">Educadores e especialistas que explicam o território com conhecimento e experiência de campo.</p>
+    <div class="grid md:grid-cols-2 gap-x-14 gap-y-10 mt-12">
+      <article class="flex gap-5 pt-6" style="border-top:2px solid var(--line)"><div class="photo leaf2 w-24 h-24 sm:w-28 sm:h-28 shrink-0" style="--a:#0f6b6b;--b:#9bc12b"></div><div><h3 class="text-xl font-bold">Nome do especialista</h3><p class="teal font-semibold text-sm">Rios e recursos hídricos</p><p class="muted text-sm mt-2">Biografia curta: formação, atuação na região e o que gosta de ensinar sobre o Tietê.</p><p class="flex gap-3 mt-3 forest"><a href="#" aria-label="LinkedIn"><svg class="ico"><use href="#i-in"/></svg></a><a href="#" aria-label="Instagram"><svg class="ico"><use href="#i-ig"/></svg></a></p></div></article>
+      <article class="flex gap-5 pt-6" style="border-top:2px solid var(--line)"><div class="photo leaf2 w-24 h-24 sm:w-28 sm:h-28 shrink-0" style="--a:#9bc12b;--b:#b8982c"></div><div><h3 class="text-xl font-bold">Nome do especialista</h3><p class="teal font-semibold text-sm">Fauna e biodiversidade</p><p class="muted text-sm mt-2">Biografia curta: pesquisa, trabalho de campo e espécies da Mata Atlântica local.</p><p class="flex gap-3 mt-3 forest"><a href="#" aria-label="LinkedIn"><svg class="ico"><use href="#i-in"/></svg></a><a href="#" aria-label="Instagram"><svg class="ico"><use href="#i-ig"/></svg></a></p></div></article>
+      <article class="flex gap-5 pt-6" style="border-top:2px solid var(--line)"><div class="photo leaf2 w-24 h-24 sm:w-28 sm:h-28 shrink-0" style="--a:#b8982c;--b:#0f6b6b"></div><div><h3 class="text-xl font-bold">Nome do especialista</h3><p class="teal font-semibold text-sm">Enchentes e cidade</p><p class="muted text-sm mt-2">Biografia curta: como a ocupação do solo e a chuva afetam a vida nas cidades.</p><p class="flex gap-3 mt-3 forest"><a href="#" aria-label="LinkedIn"><svg class="ico"><use href="#i-in"/></svg></a><a href="#" aria-label="Instagram"><svg class="ico"><use href="#i-ig"/></svg></a></p></div></article>
+      <article class="flex gap-5 pt-6" style="border-top:2px solid var(--line)"><div class="photo leaf2 w-24 h-24 sm:w-28 sm:h-28 shrink-0" style="--a:#6b3d12;--b:#9bc12b"></div><div><h3 class="text-xl font-bold">Nome do especialista</h3><p class="teal font-semibold text-sm">Educação em escolas</p><p class="muted text-sm mt-2">Biografia curta: oficinas e projetos com professores e estudantes.</p><p class="flex gap-3 mt-3 forest"><a href="#" aria-label="LinkedIn"><svg class="ico"><use href="#i-in"/></svg></a><a href="#" aria-label="Instagram"><svg class="ico"><use href="#i-ig"/></svg></a></p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="acoes" class="sec">
+  <h2 class="text-3xl md:text-5xl font-extrabold bark max-w-2xl">Ações para participar</h2>
+  <p class="muted mt-4 max-w-xl">Vivências, oficinas e encontros no território. Qualquer pessoa pode se envolver.</p>
+  <div class="mt-14 grid gap-14">
+    <article class="grid md:grid-cols-12 gap-6 md:gap-12 items-center"><div class="md:col-span-5 photo leaf aspect-[4/3]" style="--a:#0f6b6b;--b:#9bc12b"><img src="assets/fotos/varzea-tiete.jpg" alt="Várzea do Tietê com área alagada e prédios ao fundo" class="absolute inset-0 w-full h-full object-cover " loading="lazy"></div><div class="md:col-span-7"><p class="flex gap-4"><span class="tag">Meio Ambiente</span><span class="tag">Comunidade</span></p><h3 class="text-2xl md:text-3xl font-bold mt-3">Vivência na nascente do Tietê</h3><p class="muted mt-3 max-w-lg">Visita guiada para entender de onde vem o rio e como ele muda ao atravessar as cidades.</p></div></article>
+    <article class="grid md:grid-cols-12 gap-6 md:gap-12 items-center"><div class="md:col-span-5 md:order-2 photo leaf2 aspect-[4/3]" style="--a:#9bc12b;--b:#2d6a3e"><img src="assets/fotos/oficina-mesa.jpg" alt="Educadora conduz atividade com estudantes ao redor de uma mesa" class="absolute inset-0 w-full h-full object-cover object-[50%_55%]" loading="lazy"></div><div class="md:col-span-7 md:order-1"><p class="flex gap-4"><span class="tag">Educação</span></p><h3 class="text-2xl md:text-3xl font-bold mt-3">Oficinas em escolas</h3><p class="muted mt-3 max-w-lg">Atividades com estudantes e professores sobre água, fauna e o lugar onde vivem.</p></div></article>
+    <article class="grid md:grid-cols-12 gap-6 md:gap-12 items-center"><div class="md:col-span-5 photo leaf aspect-[4/3]" style="--a:#b8982c;--b:#0f6b6b"><img src="assets/fotos/mutirao-grupo.jpg" alt="Grupo de voluntários e educadores reunido após mutirão de limpeza" class="absolute inset-0 w-full h-full object-cover " loading="lazy"></div><div class="md:col-span-7"><p class="flex gap-4"><span class="tag">Comunidade</span><span class="tag">Educação</span></p><h3 class="text-2xl md:text-3xl font-bold mt-3">Rodas de conversa e fóruns locais</h3><p class="muted mt-3 max-w-lg">Moradores e educadores trocam dúvidas sobre rios e enchentes, e a REAAT participa de espaços já ativos na região.</p></div></article>
+  </div>
+</section>
+
+<section id="noticias" style="background:var(--tint)">
+  <div class="sec">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <div><h2 class="text-3xl md:text-5xl font-extrabold bark">Notícias e artigos</h2><p class="muted mt-4 max-w-xl">Histórias da rede e do território. Em breve, no blog da REAAT.</p></div>
+      <a href="#" class="btn btn-line">Ver todos os artigos</a>
+    </div>
+    <div class="grid md:grid-cols-3 gap-10 mt-12">
+      <article><div class="photo leaf2 aspect-[16/11]" style="--a:#0f6b6b;--b:#2d6a3e"><img src="assets/fotos/placa-apa-varzea.jpg" alt="Placa da APA Várzea do Tietê" class="absolute inset-0 w-full h-full object-cover object-[50%_40%]" loading="lazy"></div><time class="teal text-sm font-semibold block mt-4" datetime="2026-10-08">8 de outubro de 2026</time><h3 class="text-xl font-bold mt-1">Por que o Tietê muda de cor ao atravessar o Alto Tietê?</h3><p class="muted text-sm mt-2">Um educador explica o que acontece com a água do rio no caminho.</p><a href="#" class="forest font-semibold underline mt-3 inline-block">Ler artigo completo</a></article>
+      <article><div class="photo leaf2 aspect-[16/11]" style="--a:#9bc12b;--b:#b8982c"></div><time class="teal text-sm font-semibold block mt-4" datetime="2026-09-24">24 de setembro de 2026</time><h3 class="text-xl font-bold mt-1">Cinco aves que você pode ver sem sair de casa</h3><p class="muted text-sm mt-2">Curiosidades sobre espécies comuns da região e como observá-las.</p><a href="#" class="forest font-semibold underline mt-3 inline-block">Ler artigo completo</a></article>
+      <article><div class="photo leaf2 aspect-[16/11]" style="--a:#b8982c;--b:#6b3d12"><img src="assets/fotos/banner-reaat.jpg" alt="Banner educativo da REAAT sobre preservação do patrimônio natural" class="absolute inset-0 w-full h-full object-cover object-top" loading="lazy"></div><time class="teal text-sm font-semibold block mt-4" datetime="2026-09-10">10 de setembro de 2026</time><h3 class="text-xl font-bold mt-1">Como se preparar para as chuvas: orientações para moradores</h3><p class="muted text-sm mt-2">Dicas práticas dos educadores da REAAT sobre enchentes.</p><a href="#" class="forest font-semibold underline mt-3 inline-block">Ler artigo completo</a></article>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="sec">
+  <div class="grid lg:grid-cols-12 gap-12">
+    <form id="cform" class="lg:col-span-7 grid sm:grid-cols-2 gap-x-6 gap-y-5" novalidate>
+      <div class="sm:col-span-2"><h2 class="text-3xl md:text-4xl font-extrabold bark">Fale com a REAAT</h2><p class="muted mt-2">Quer participar, propor uma parceria ou chamar a rede para uma ação? Conte para a gente.</p></div>
+      <div><label for="nome">Nome</label><input id="nome" class="field" required autocomplete="name"></div>
+      <div><label for="email">E-mail</label><input id="email" type="email" class="field" required autocomplete="email"></div>
+      <div><label for="cidade">Cidade do Alto Tietê</label><select id="cidade" class="field"><option>Arujá</option><option>Biritiba Mirim</option><option>Ferraz de Vasconcelos</option><option>Guararema</option><option>Itaquaquecetuba</option><option>Mogi das Cruzes</option><option>Poá</option><option>Salesópolis</option><option>Santa Isabel</option><option>Suzano</option><option>Outra cidade</option></select></div>
+      <div><label for="assunto">Interesse</label><select id="assunto" class="field"><option>Quero fazer parte da rede</option><option>Quero ser parceiro</option><option>Convite para uma ação</option><option>Imprensa</option><option>Outro assunto</option></select></div>
+      <div class="sm:col-span-2"><label for="msg">Mensagem</label><textarea id="msg" rows="3" class="field"></textarea></div>
+      <div class="sm:col-span-2 flex flex-wrap items-center gap-4"><button class="btn btn-main" type="submit">Enviar mensagem</button><p id="fmsg" class="text-sm font-semibold forest" role="status"></p></div>
+    </form>
+    <aside class="lg:col-span-5 flex flex-col gap-8 lg:pt-14">
+      <div class="pl-5" style="border-left:4px solid var(--lime)">
+        <h3 class="text-xl font-bold forest">Comunidade digital</h3>
+        <p class="muted text-sm mt-1">Envie fotos, dúvidas e relatos sobre o Alto Tietê.</p>
+        <p class="flex flex-wrap gap-3 mt-4"><a href="#" class="btn btn-line !py-2"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp</a><a href="#" class="btn btn-line !py-2"><svg class="ico"><use href="#i-ig"/></svg>Instagram</a></p>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer class="relative" style="background:var(--deep);color:#fff">
+  <svg class="w-full h-12 md:h-16 block" style="transform:scaleY(-1);margin-top:-1px" aria-hidden="true"><use href="#wave"/></svg>
+  <div class="max-w-6xl mx-auto px-5 py-12 grid gap-10 md:grid-cols-12">
+    <div class="md:col-span-6 flex gap-4"><span class="mark w-16 h-16 shrink-0" role="img" aria-label="Logo da REAAT"></span><div><b class="disp text-2xl">REAAT</b><p class="mt-2 text-sm max-w-md" style="opacity:.85">Rede de Educação Ambiental do Alto Tietê. Educadores que conectam pessoas ao território, aos rios e à fauna da região.</p>
+      <p class="flex gap-4 mt-4"><a href="#" aria-label="Instagram"><svg class="ico w-6 h-6"><use href="#i-ig"/></svg></a><a href="#" aria-label="WhatsApp"><svg class="ico w-6 h-6"><use href="#i-wa"/></svg></a><a href="#" aria-label="LinkedIn"><svg class="ico w-6 h-6"><use href="#i-in"/></svg></a></p></div></div>
+    <div class="md:col-span-3"><h3 class="font-bold">Links rápidos</h3><ul class="mt-3 grid gap-2 text-sm" style="opacity:.9"><li><a href="#sobre">Sobre</a></li><li><a href="#especialistas">Especialistas</a></li><li><a href="#acoes">Ações &amp; Projetos</a></li><li><a href="#noticias">Notícias</a></li></ul></div>
+    <div class="md:col-span-3"><h3 class="font-bold">Contato e imprensa</h3><ul class="mt-3 grid gap-2 text-sm" style="opacity:.9"><li class="flex gap-2"><svg class="ico mt-1"><use href="#i-mail"/></svg>contato@reaat.org.br</li><li class="flex gap-2"><svg class="ico mt-1"><use href="#i-mega"/></svg>imprensa@reaat.org.br</li><li class="flex gap-2"><svg class="ico mt-1"><use href="#i-pin"/></svg>Alto Tietê, SP</li></ul></div>
+  </div>
+  <p class="text-center text-xs py-5" style="border-top:1px solid rgba(255,255,255,.15);opacity:.8">© 2026 REAAT. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+var b=document.getElementById('mbtn'),n=document.getElementById('mnav');
+b.addEventListener('click',function(){var o=n.classList.toggle('hidden');n.classList.toggle('flex',!o);b.setAttribute('aria-expanded',String(!o))});
+n.addEventListener('click',function(e){if(e.target.tagName==='A'){n.classList.add('hidden');n.classList.remove('flex');b.setAttribute('aria-expanded','false')}});
+function wire(f,m,fields,ok){document.getElementById(f).addEventListener('submit',function(e){e.preventDefault();var bad=fields.some(function(i){var el=document.getElementById(i);return !el.value.trim()||(el.type==='email'&&!/^\S+@\S+\.\S+$/.test(el.value))});document.getElementById(m).textContent=bad?'Preencha os campos obrigatórios com um e-mail válido.':ok;if(!bad)this.reset()})}
+wire('cform','fmsg',['nome','email'],'Mensagem recebida. A REAAT responde em breve.');
+</script>
+</body>
+</html>
